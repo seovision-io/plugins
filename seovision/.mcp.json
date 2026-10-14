@@ -2,7 +2,17 @@
   "mcpServers": {
     "seovision": {
       "type": "http",
-      "url": "https://app.seovision.io/api/directory/mcp"
+      "url": "https://app.seovision.io/api/directory/mcp",
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "oauth",
+            "client": {
+              "mode": "dcr"
+            }
+          }
+        }
+      }
     }
   }
 }
