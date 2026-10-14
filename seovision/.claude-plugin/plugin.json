@@ -1,0 +1,27 @@
+{
+  "name": "seovision",
+  "displayName": "SeoVision",
+  "version": "1.0.0",
+  "description": "SeoVision for Claude Code: your site's audits, AI-search visibility, articles and backlinks from SeoVision, plus three ready workflows (get started, SEO health check, weekly report).",
+  "author": {
+    "name": "SeoVision",
+    "email": "support@seovision.io",
+    "url": "https://seovision.io"
+  },
+  "homepage": "https://seovision.io/mcp",
+  "repository": "https://github.com/seovision-io/plugins",
+  "license": "MIT",
+  "keywords": [
+    "seo",
+    "ai-visibility",
+    "geo",
+    "content",
+    "backlinks",
+    "search-console"
+  ],
+  "icon": "./assets/logo.png",
+  "documentationUrl": "https://seovision.io/mcp",
+  "supportUrl": "https://seovision.io/contact",
+  "privacyPolicyUrl": "https://seovision.io/privacy",
+  "termsOfServiceUrl": "https://seovision.io/terms"
+}

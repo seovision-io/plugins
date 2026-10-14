@@ -1,0 +1,15 @@
+{
+  "name": "seovision",
+  "description": "SeoVision plugins for Claude Code",
+  "owner": {
+    "name": "SeoVision",
+    "email": "support@seovision.io"
+  },
+  "plugins": [
+    {
+      "name": "seovision",
+      "source": "./seovision",
+      "description": "Your site's audits, AI-search visibility, articles and backlinks from SeoVision, with three ready workflows."
+    }
+  ]
+}

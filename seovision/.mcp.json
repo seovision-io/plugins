@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "seovision": {
+      "type": "http",
+      "url": "https://app.seovision.io/api/directory/mcp"
+    }
+  }
+}
