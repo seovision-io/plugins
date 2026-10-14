@@ -1,6 +1,6 @@
 # SeoVision
 
-SeoVision gets a website ranking in Google and cited by AI assistants such as ChatGPT and Claude, and does the work for its customers: site audits, AI-visibility tracking per market and model, articles written and published to the customer's site, and backlinks from real sites.
+SeoVision helps a website rank in Google and get cited by AI assistants such as ChatGPT and Claude, and does the work for its customers: site audits, AI-visibility tracking per market and model, articles written and published to the customer's site, and backlinks from real sites.
 
 This plugin connects your SeoVision account to Claude Code and Codex. It adds the SeoVision MCP server and three workflows:
 

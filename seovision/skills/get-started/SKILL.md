@@ -5,7 +5,7 @@ description: Connect to SeoVision and see where a project stands. Use when the p
 
 # Get started with SeoVision
 
-SeoVision gets a website ranking in search and cited by AI assistants. It runs site audits, tracks how often AI assistants name the brand, writes and publishes articles to the site, and places backlinks. This workflow checks the connection and gives the person a short status of their project.
+SeoVision helps a website rank in search and get cited by AI assistants. It runs site audits, tracks how often AI assistants name the brand, writes and publishes articles to the site, and places backlinks. This workflow checks the connection and gives the person a short status of their project.
 
 1. Call `seovision_list_projects`.
    - If the call asks for a sign-in, ask the person to finish the SeoVision sign-in that opened in their browser, then call it again.
