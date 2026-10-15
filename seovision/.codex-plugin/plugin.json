@@ -1,6 +1,6 @@
 {
   "name": "seovision",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "SeoVision in ChatGPT and Codex: your site's audits, AI-search visibility, articles and backlinks from your SeoVision account.",
   "author": {
     "name": "SeoVision",
@@ -40,6 +40,7 @@
       "review": {
         "commerce": false,
         "commerce_description": "SeoVision does not sell anything inside ChatGPT or Codex. People sign in to an existing SeoVision account, and plans and payments stay in the SeoVision dashboard.",
+        "demo_recording_url": "https://youtu.be/n0Jv04e4sO8",
         "test_cases": {
           "positive": [
             {
@@ -52,7 +53,7 @@
               "description": "Reports how often AI assistants name the brand and which competitors they name instead.",
               "prompt": "How visible is my brand in AI answers, and which competitors are named instead?",
               "tools_triggered": "seovision_get_ai_visibility_report, seovision_list_competitors",
-              "expected_behavior": "The answer gives the AI visibility of seovision.io over its 20 tracked questions in ChatGPT, Claude, Gemini and Perplexity (40% on the 2026-10-14 scan), and names competitors from the answers, such as Semrush and Ahrefs. Every number is as the tools returned it."
+              "expected_behavior": "The answer gives the AI visibility of seovision.io over its 20 tracked questions in ChatGPT, Claude, Gemini and Perplexity, as the share from the latest weekly scan, and names competitors from the answers, such as Semrush and Ahrefs. Every number is as the tools returned it."
             },
             {
               "description": "Writes a weekly SEO and AI-visibility report from the project data, without inventing numbers.",
@@ -83,7 +84,7 @@
               "prompt": "Explain what a canonical tag is."
             },
             {
-              "description": "A purchase request. SeoVision sells nothing in the chat and has no purchase tool. The answer says plans and payments are managed in the SeoVision dashboard, with no payment link.",
+              "description": "A purchase request. SeoVision sells nothing in the chat and has no purchase tool, so nothing is bought, nothing is charged and no payment link is given.",
               "prompt": "Buy more credits for my SeoVision account."
             }
           ]
