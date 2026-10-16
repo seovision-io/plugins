@@ -22,7 +22,7 @@ On first use, sign in to SeoVision in your browser.
 
 ## What it connects to
 
-The plugin declares one remote MCP server, `https://app.seovision.io/api/directory/mcp`. Nothing runs on your machine. On first use you sign in to SeoVision in your browser (OAuth), and every call then runs as your SeoVision user, with the same projects and roles as the SeoVision dashboard. The plugin sends no data anywhere else and reads no credentials from your machine.
+The plugin declares one remote MCP server: `https://app.seovision.io/api/directory/claude/mcp` in Claude Code, `https://app.seovision.io/api/directory/mcp` in Codex. Nothing runs on your machine. On first use you sign in to SeoVision in your browser (OAuth), and every call then runs as your SeoVision user, with the same projects and roles as the SeoVision dashboard. The plugin sends no data anywhere else and reads no credentials from your machine.
 
 Anything that publishes to your live site, deletes, or sends something outside SeoVision shows a preview first and runs only after you confirm in the chat.
 
