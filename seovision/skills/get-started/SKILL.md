@@ -16,4 +16,4 @@ SeoVision helps a website rank in search and get cited by AI assistants. It runs
 3. Call `seovision_get_setup_progress`. If setup is not finished, name the next step and offer to help with it. If it says the onboarding is not finished, call `seovision_get_onboarding` to see which step comes next.
 4. End with three questions the person can ask next, for example "What should I fix first on my site?", "How visible is my brand in AI answers this month?" and "Write my weekly SEO report."
 
-Keep the answer short. Read calls change nothing. A call that publishes to the live site, deletes, or spends credit returns a preview first: show the preview, wait for a clear yes in the chat, then call again with `confirm: true`.
+Keep the answer short. Read calls change nothing. When a call returns a preview (`preview: true`), show it, wait for a clear yes in the chat, then call again with `confirm: true`.
