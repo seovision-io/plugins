@@ -1,6 +1,6 @@
 {
   "name": "seovision",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "SeoVision in ChatGPT and Codex: your site's audits, AI-search visibility, articles and backlinks from your SeoVision account.",
   "author": {
     "name": "SeoVision",
@@ -91,7 +91,7 @@
         }
       },
       "publication": {
-        "release_notes": "Audits, AI-search visibility, articles, Search Console, backlinks and site connections from your SeoVision account, with three workflows: get started, SEO health check and weekly report. This version corrects the tools' annotations and lists the reason for each in ANNOTATIONS.md. Steps that take or show a site's key or token, and the Business Profile's address and license fields, stay in the SeoVision dashboard."
+        "release_notes": "Audits, AI-search visibility, articles, Search Console, backlinks and site connections from your SeoVision account, with three workflows: get started, SEO health check and weekly report. This version's get-started workflow explains what SeoVision does for the business and every service it connects with. Steps that take or show a site's key or token, and the Business Profile's address and license fields, stay in the SeoVision dashboard."
       }
     }
   }
